@@ -20,7 +20,13 @@ int main()
 	cout<< "Enter a Number you want to perform operation \n  ";
 	
 	cin>> n ;
-	
+	// input failure case handler
+	while (cin.fail()) {
+		cin.clear();
+		cin.ignore(10000, '\n');
+		cout << " Invalid Option\n Enter a valid operation:";
+		cin>>n;
+		}
 	switch(n)
 	{
 		//Addition
