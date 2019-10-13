@@ -6,26 +6,26 @@ using namespace std;
 
 class time {
 private:
-	int min, hr;
+	int minute, hour;
 public:
 	time() {
-		hr = 0;
-		min = 0;
+		hour = 0;
+		minute = 0;
 	}
-	void input(int x, int y) {
-		hr = x;
-		min = y;
+	void input(int hr, int min) {
+		hours = hr;
+		minutes = min;
 	}
 	void show() {
-		cout << "Hours are " << hr << "." << endl;
-		cout << "minutes are " << min << endl;
+		cout << "Hours are " << hours << "." << endl;
+		cout << "minutes are " << minutes << endl;
 	}
 	void sum(time a2) {
 		time temp;
-		temp.hr = hr + a2.hr;
-		temp.min = min + a2.min;
-		cout << "Hr=" << temp.hr << endl;
-		cout << "km=" << temp.min << endl;
+		temp.hours = hours + a2.hours;
+		temp.minutes = minutes + a2.minutes;
+		cout << "Hr=" << temp.hours << endl;
+		cout << "km=" << temp.minutes << endl;
 	}
 
 };
