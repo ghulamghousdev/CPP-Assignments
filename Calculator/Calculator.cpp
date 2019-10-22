@@ -1,7 +1,6 @@
 //consloe calculator in c++
 
 #include<iostream>
-
 #include<math.h>
 
 using namespace std;
@@ -15,7 +14,13 @@ int main()
 	
 	float r; //Variable to store result
 	
-	cout<<" [+] [-] [*] [/] [%] [pow] [sqrt]"<<endl;
+	cout<<" 1: [+] 
+		2: [-] 
+		3: [*] 
+		4: [/] 
+		5: [%] 
+		6: [pow] 
+		7: [sqrt]"<<endl;
 	
 	cout<< "Enter a Number you want to perform operation \n  ";
 	
@@ -29,7 +34,7 @@ int main()
 		}
 	switch(n)
 	{
-		//Addition
+		//Taking input from user and adding two numbers
 		case 1:
 		
 		cout<< "Enter a Number:  ";
@@ -46,7 +51,7 @@ int main()
 		
 		break;
 	
-	 	//Subtraction
+	 	//Taking two numbers from user and subtracting two numbers
 		case 2:
 			
 		cout<< "Enter a Number:  ";
@@ -64,7 +69,7 @@ int main()
 		break;
 	
 	
-		//Multiplication
+		//Taking two numbers from user and multiplying two numbers
 		case 3:
 		
 		cout<< "Enter The First  Number:  ";
