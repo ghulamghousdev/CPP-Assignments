@@ -89,17 +89,17 @@ int main()
 		//Division
 		case 4:
 		
-		cout<< "Enter The Numerator:  ";
+		cout<< "Enter The Numerator:  "<<endl;
 		
 		cin>> a ;
 		
-		cout<< "Enter The Demoinator:  ";
+		cout<< "Enter The Demoinator:  "<<endl;
 		
 		cin>> b ;
 		
 		r = a/b;
 		
-		cout<<"Quotient is"<< r;
+		cout<<"Quotient is "<< r<<endl;
 		
 		break;
 	
@@ -117,7 +117,7 @@ int main()
 		
 		r = a % b;
 		
-		cout<< r;
+		cout<<"The result is: "<< r <<endl;
 		
 		break;
 	
@@ -125,11 +125,11 @@ int main()
 		
 		case 6:
 		
-		cout<< "Enter a number:  ";
+		cout<< "Enter a number:  "<<endl;
 		
 		cin>> a ;
 		
-		cout<<"enter the power: ";
+		cout<<"enter the power: "<<endl;
 		
 		cin>> b;
 		
