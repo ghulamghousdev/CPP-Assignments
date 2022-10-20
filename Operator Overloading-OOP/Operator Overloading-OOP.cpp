@@ -6,13 +6,13 @@
 
 using namespace std;
 
-//class declaration
+//class declaration of Fraction
 class Fraction
 {
 
 //protection levels
 private:
-	//Declaring variables
+	//Declaring private variables
 	int num;
 	int denom;
 public:
@@ -143,36 +143,36 @@ int main()
 	Fraction fraction3;
 	
 	//Taking input from user for numerator & denominator of object1
-	cout<<"Enter values of numerator and denominator for fraction1"<<endl;
+	cout<<"Enter values of numerator and denominator for fraction1\n"<<endl;
 	cin>>fraction1;
 	
 	//Taking input from user for numerator & denominator of object2
-	cout<<"Enter values of numerator and denominator for fraction2"<<endl;
+	cout<<"Enter values of numerator and denominator for fraction2\n"<<endl;
 	cin>>fraction2;
 	
 	//Adding two fractions and storing them in the fraction3
-	cout<<"Sum of two fractions is = ";
+	cout<<"Sum of two fractions is: ";
 	fraction3=fraction1+fraction2;
 	cout<<fraction3;
 	
 	//Subtracting two fractions and storing them in the fraction3
-	cout<<"\n"<<"Difference of two fractions is = ";
+	cout<<"\n"<<"Difference of two fractions is: ";
 	fraction3=fraction1-fraction2;
 	cout<<fraction3;
 	
 	//Multiplying two fractions and storing them in the fraction3
-	cout<<"\n"<<"Product  of two fractions is = ";
+	cout<<"\n"<<"Product  of two fractions is: ";
 	fraction3=fraction1*fraction2;
 	cout<<fraction3;
 	
 	//Dividing both fractions and storing them in the fraction3
-	cout<<"\n"<<"Division of two fractions is = ";
+	cout<<"\n"<<"Division of two fractions is: ";
 	fraction3=fraction1/fraction2;
 	cout<<fraction3;
 	
 	//IF condition to check whether fraction 1 is greater then fraction 2
 	if(fraction1 > fraction2){
-		cout<<"\nfraction1  is greater then fraction2"<<endl;
+		cout<<"\nfraction1  is greater then fraction2\n"<<endl;
 	}
 	else{
 		cout<<"\nfraction1 is less then fraction2"<<endl;
