@@ -22,14 +22,14 @@ int main()
 		6: [pow] 
 		7: [sqrt]"<<endl;
 	
-	cout<< "Enter a Number you want to perform operation \n  ";
+	cout<< "Enter a Number you want to perform operation"<<endl;
 	
 	cin>> n ;
 	// input failure case handler
 	while (cin.fail()) {
 		cin.clear();
 		cin.ignore(10000, '\n');
-		cout << " Invalid Option\n Enter a valid operation:";
+		cout << " Invalid Option\n Enter a valid operation:"<<endl;
 		cin>>n;
 		}
 	switch(n)
@@ -37,11 +37,11 @@ int main()
 		//Taking input from user and adding two numbers
 		case 1:
 		
-		cout<< "Enter a Number:  ";
+		cout<< "Enter a Number:  "<<endl;
 		
 		cin>> a;
 		
-		cout<< "Enter a Number:  ";
+		cout<< "Enter a Number:  "<<endl;
 		
 		cin>> b ;
 		
@@ -54,11 +54,11 @@ int main()
 	 	//Taking two numbers from user and subtracting two numbers
 		case 2:
 			
-		cout<< "Enter a Number:  ";
+		cout<< "Enter a Number:  "<<endl;
 		
 		cin>> a ;
 		
-		cout<< "Enter a Number:  ";
+		cout<< "Enter a Number:  "<<endl;
 		
 		cin>> b ;
 		
